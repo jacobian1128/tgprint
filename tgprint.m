@@ -40,8 +40,8 @@ d = fread(f,Inf,'*uint8')';
 fclose(f);
 
 % default token and chat_id
-token = '430183280:AAEoNtMwQQFxMhE7VP9hwQnHWI-RAtyD9No'; % @tgprintfbot
-chat_id = '59233348';
+token = DEFAULT_TOKEN_HERE
+chat_id = DEFAULT_CHAT_ID_HERE;
 
 if strcmpi(options,'photo')
     sendstr = ['https://api.telegram.org/bot',token,'/sendPhoto'];
