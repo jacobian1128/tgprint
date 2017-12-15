@@ -2,8 +2,8 @@
 TGPRINT send an image to a Telegram bot from MATLAB
 
 You can choose sending mode:  
-1. tgprint('photo'): send an image with compression using sendPhoto of Telegram Bot API
-2. tgprint('document'): send an image without compression using sendDocument of Telegram Bot API
+1. tgprint('photo'): send an image w/ compression using sendPhoto of Telegram Bot API
+2. tgprint('document'): send an image w/o compression using sendDocument of Telegram Bot API
 
 Example: 
 
